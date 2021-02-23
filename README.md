@@ -72,14 +72,14 @@ Execute tstall Ansible and clone the repository :
 bash <(curl -s https://raw.githubusercontent.com/ilkilab/ike-core/master/setup-deploy.sh)
 ```
 #### On the K8S nodes
-Execute this commaode to update them and install the last version of Python : 
+Execute this command on each node to update them and install the last version of Python : 
 ```
 bash <(curl -s https://raw.githubusercontent.com/ilkilab/ike-core/master/setup-hosts.sh)
 ```
 
 ### Installation instructions
 
-To deploy yoer follow these [instructions](docs/instructions.md).
+To deploy your K8S cluster follow these [instructions](docs/instructions.md).
 
 ## How to give feedback
 
