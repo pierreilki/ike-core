@@ -1,4 +1,4 @@
-#  Core
+# AgoraKube Core
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Filkilab%2Fagorakube.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Filkilab%2Fagorakube?ref=badge_shield)
@@ -13,7 +13,8 @@
 <img src="https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/stacked/color/cncf-landscape-stacked-color.svg?sanitize=true" width="100" alt="Agorakube is a cncf landscap project" title="Agorakube is a cncf landscap project"/>
 </p>
 
-This project is aimed to provide the simplest way several other operating systems will beble soon.
+This project is aimed to provide the simplest way to install kubernetes on AMD-64 bare-metal, virtual & Cloud environments.
+Currently, Ubuntu 18.04 & 20.04,  Centos 7 and Debian 10  are supported, but several other operating systems will be available soon.
 
 Official documentation is available at [Agorakube Website](https://agorakube.ilkilabs.io/)
 
@@ -36,7 +37,7 @@ This is a list of points that will be explained in this Readme file for the [Ago
 - [Community](#community)
 - [Licensing](#licensing)
 
-## What i
+## What is AgoraKube
 
 [AgoraKube](https://agorakube.ilkilabs.io/) is an easy-to-use, stable Kubernetes distribution (Kubernetes v1.15, 1.16, 1.17, 1.18, 1.19).
 
@@ -66,19 +67,19 @@ We regularly use a machine to deploy every cluster. We only use it for deploymen
 ### Setup
 
 #### On the "deployment" node
-Execute tstall Ansible and clone the repository :
+Execute this command in order to install Ansible and clone the repository :
 ```
 bash <(curl -s https://raw.githubusercontent.com/ilkilab/ike-core/master/setup-deploy.sh)
 ```
 #### On the K8S nodes
-Execute this commaode to update them and install the last version of Python : 
+Execute this command on each node to update them and install the last version of Python : 
 ```
 bash <(curl -s https://raw.githubusercontent.com/ilkilab/ike-core/master/setup-hosts.sh)
 ```
 
 ### Installation instructions
 
-To deploy yoer follow these [instructions](docs/instructions.md).
+To deploy your K8S cluster follow these [instructions](docs/instructions.md).
 
 ## How to give feedback
 
