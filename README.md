@@ -13,8 +13,7 @@
 <img src="https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/stacked/color/cncf-landscape-stacked-color.svg?sanitize=true" width="100" alt="Agorakube is a cncf landscap project" title="Agorakube is a cncf landscap project"/>
 </p>
 
-This project is aimed to provide the simplest way to install kubernetes on AMD-64 bare-metal, virtual & Cloud environments.
-Currently, Ubuntu 18.04 & 20.04,  Centos 7 and Debian 10  are supported, but several other operating systems will be available soon.
+This project is aimed to provide the simplest way several other operating systems will beble soon.
 
 Official documentation is available at [Agorakube Website](https://agorakube.ilkilabs.io/)
 
