@@ -1,4 +1,4 @@
-#  Core
+# AgoraKube Core
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Filkilab%2Fagorakube.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Filkilab%2Fagorakube?ref=badge_shield)
@@ -37,7 +37,7 @@ This is a list of points that will be explained in this Readme file for the [Ago
 - [Community](#community)
 - [Licensing](#licensing)
 
-## What i
+## What is AgoraKube
 
 [AgoraKube](https://agorakube.ilkilabs.io/) is an easy-to-use, stable Kubernetes distribution (Kubernetes v1.15, 1.16, 1.17, 1.18, 1.19).
 
@@ -67,7 +67,7 @@ We regularly use a machine to deploy every cluster. We only use it for deploymen
 ### Setup
 
 #### On the "deployment" node
-Execute tstall Ansible and clone the repository :
+Execute this command in order to install Ansible and clone the repository :
 ```
 bash <(curl -s https://raw.githubusercontent.com/ilkilab/ike-core/master/setup-deploy.sh)
 ```
